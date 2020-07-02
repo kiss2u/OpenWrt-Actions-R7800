@@ -1,0 +1,288 @@
+Package: boost-date_time
+Version: 1.71.0-4
+Depends: libc, libstdcpp, libpthread, librt
+License: BSL-1.0
+Section: libs
+Architecture: arm_cortex-a15_neon-vfpv4
+Installed-Size: 14003
+Filename: boost-date_time_1.71.0-4_arm_cortex-a15_neon-vfpv4.ipk
+Size: 14712
+SHA256sum: 44ed4c392bd0780b4690e415472424f5d216a8bff72afba24ffc001ccc98e06f
+Description:  This package contains the Boost date_time library.
+
+Package: boost-program_options
+Version: 1.71.0-4
+Depends: libc, libstdcpp, libpthread, librt
+License: BSL-1.0
+Section: libs
+Architecture: arm_cortex-a15_neon-vfpv4
+Installed-Size: 89216
+Filename: boost-program_options_1.71.0-4_arm_cortex-a15_neon-vfpv4.ipk
+Size: 89623
+SHA256sum: 0c40528c3842d1417f9cb43339f9cff2c34b7c8495031f7901d03eb3de980beb
+Description:  This package contains the Boost program_options library.
+
+Package: boost-system
+Version: 1.71.0-4
+Depends: libc, libstdcpp, libpthread, librt
+License: BSL-1.0
+Section: libs
+Architecture: arm_cortex-a15_neon-vfpv4
+Installed-Size: 928
+Filename: boost-system_1.71.0-4_arm_cortex-a15_neon-vfpv4.ipk
+Size: 1736
+SHA256sum: 4442815b1de4651c58cb343067a49596223077a53eb828b1bf68101882604b7f
+Description:  This package contains the Boost system library.
+
+Package: boost
+Version: 1.71.0-4
+Depends: libc, libstdcpp, libpthread, librt
+License: BSL-1.0
+Section: libs
+Architecture: arm_cortex-a15_neon-vfpv4
+Installed-Size: 104
+Filename: boost_1.71.0-4_arm_cortex-a15_neon-vfpv4.ipk
+Size: 1252
+SHA256sum: dd875b82a329f79c8871dca303614b6523a355088e73caae1a9a6ae7c312040c
+Description:  This package provides the Boost v1.71.0 libraries.
+ Boost is a set of free, peer-reviewed, portable C++ source libraries.
+ 
+ This package provides the following run-time libraries:
+ - atomic
+ - chrono
+ - container
+ - context
+ - contract
+ - coroutine and coroutine2 (Coroutine is deprecated - use Coroutine2)
+ - date_time
+ - exception
+ - filesystem
+ - fiber
+ - graph
+ - - graph-parallel
+ - iostreams
+ - locale (Requires kernel being compiled with full language support)
+ - log
+ - math
+ - program_options
+ - python
+ - python3
+ - random
+ - regex
+ - serialization and wserialization
+ - stackstrace
+ - system
+ - thread
+ - timer
+ - type_erasure
+ - wave
+ 
+ There are many more header-only libraries supported by Boost.
+ See more at http://www.boost.org/doc/libs/1_71_0/
+
+Package: coreutils-base64
+Version: 8.23-3
+Depends: libc, coreutils
+Section: utils
+Architecture: arm_cortex-a15_neon-vfpv4
+Installed-Size: 19401
+Filename: coreutils-base64_8.23-3_arm_cortex-a15_neon-vfpv4.ipk
+Size: 20187
+SHA256sum: c46ed09431ec16f7cbb81d6fc15d39ed4fa89aad993d3390312aa794b9d95a61
+Description:  Full version of standard GNU base64 utility.
+
+Package: coreutils-nohup
+Version: 8.23-3
+Depends: libc, coreutils
+Section: utils
+Architecture: arm_cortex-a15_neon-vfpv4
+Installed-Size: 17464
+Filename: coreutils-nohup_8.23-3_arm_cortex-a15_neon-vfpv4.ipk
+Size: 18225
+SHA256sum: 9ca2d85c55c748fc411d22600c397a05de791792feb6e137ffb5a0c2008ab319
+Description:  Full version of standard GNU nohup utility.
+
+Package: coreutils
+Version: 8.23-3
+Depends: libc
+Section: utils
+Architecture: arm_cortex-a15_neon-vfpv4
+Installed-Size: 104
+Filename: coreutils_8.23-3_arm_cortex-a15_neon-vfpv4.ipk
+Size: 934
+SHA256sum: bc1ca09113f85fbae1a5f319c214b0717793b29c05d433208995e6fb6987765b
+Description:  Full versions of standard GNU utilities. If an equivalent Busybox applet is
+ available, you should consider compiling that instead as Busybox applets are
+ usually smaller, at the expense of reduced functionality.
+
+Package: ddns-scripts
+Version: 2.7.8-3
+License: GPL-2.0
+Section: net
+Architecture: all
+Installed-Size: 14710
+Filename: ddns-scripts_2.7.8-3_all.ipk
+Size: 15774
+SHA256sum: 87aaa1a3980e9a0dbf1df64582e0261670ec042eed773d83edbaf5b744988a47
+Description:  Dynamic DNS Client scripts (with IPv6 support) - Info: http://wiki.openwrt.org/doc/howto/ddns.client
+
+Package: haproxy
+Version: 1.8.4-01
+Depends: libc, libpcre, libltdl, zlib, libpthread, libopenssl1.1, libncursesw6, libreadline8, libatomic
+License: GPL-2.0
+Section: net
+Architecture: arm_cortex-a15_neon-vfpv4
+Installed-Size: 710654
+Filename: haproxy_1.8.4-01_arm_cortex-a15_neon-vfpv4.ipk
+Size: 710499
+SHA256sum: 5382f448c0eaaf63d4534a52d2147b2035527acf741fe6c93218f9c158da1582
+Description:  Open source Reliable, High Performance TCP/HTTP Load Balancer.
+ This package is built with SSL and LUA support.
+
+Package: libev
+Version: 4.22-1
+Depends: libc
+License: BSD-2-Clause
+Section: libs
+Architecture: arm_cortex-a15_neon-vfpv4
+Installed-Size: 17630
+Filename: libev_4.22-1_arm_cortex-a15_neon-vfpv4.ipk
+Size: 18408
+SHA256sum: 118c36d4f76232c08725a80fab2b6e93908c46b178b51383c940b5fc1c610bb7
+Description:  A full-featured and high-performance event loop that is loosely modelled after
+ libevent, but without its limitations and bugs.
+
+Package: libnet-1.2.x
+Version: 1.2-rc3-4
+Depends: libc, libpcap
+License: GPL-2.0
+Section: libs
+Architecture: arm_cortex-a15_neon-vfpv4
+Installed-Size: 32382
+Filename: libnet-1.2.x_1.2-rc3-4_arm_cortex-a15_neon-vfpv4.ipk
+Size: 33091
+SHA256sum: c5bf0d1a3d7a999e15d0035e26b6774b682c804db6eed1537c276d9ec9b74d58
+Description:  Low-level packet creation library
+
+Package: libpcre
+Version: 8.41-2
+Depends: libc
+License: BSD-3-Clause
+Section: libs
+Architecture: arm_cortex-a15_neon-vfpv4
+Installed-Size: 82285
+Filename: libpcre_8.41-2_arm_cortex-a15_neon-vfpv4.ipk
+Size: 83065
+SHA256sum: 4441e1b55c48fb881b54f27a7739fdd7fe667bb515b6683509a083f54466037b
+Description:  A Perl Compatible Regular Expression library
+
+Package: libsodium
+Version: 1.0.16-1
+Depends: libc
+License: ISC
+Section: libs
+Architecture: arm_cortex-a15_neon-vfpv4
+Installed-Size: 105606
+Filename: libsodium_1.0.16-1_arm_cortex-a15_neon-vfpv4.ipk
+Size: 106795
+SHA256sum: 9f19d9b102d587408a997015ae0bd8e26b0fa6b8526a26564352a70e8d6e2ff7
+Description:  NaCl (pronounced "salt") is a new easy-to-use high-speed software library for network communication, encryption, decryption, signatures, etc.
+ NaCl's goal is to provide all of the core operations needed to build higher-level cryptographic tools.
+ Sodium is a portable, cross-compilable, installable, packageable fork of NaCl (based on the latest released upstream version nacl-20110221), with a compatible API.
+ The design choices, particularly in regard to the Curve25519 Diffie-Hellman function, emphasize security (whereas NIST curves emphasize "performance" at the cost of security), and "magic constants" in NaCl/Sodium have clear rationales.
+ The same cannot be said of NIST curves, where the specific origins of certain constants are not described by the standards.
+ And despite the emphasis on higher security, primitives are faster across-the-board than most implementations of the NIST standards.
+
+Package: miniupnpd
+Version: 2.0.20170421-3
+Depends: libc, iptables, libip4tc2, libuuid
+License: BSD-3-Clause
+Section: net
+Architecture: arm_cortex-a15_neon-vfpv4
+Installed-Size: 53357
+Filename: miniupnpd_2.0.20170421-3_arm_cortex-a15_neon-vfpv4.ipk
+Size: 54252
+SHA256sum: 1d22f15509f969751078ee8bc630102469f6fcc031977afa5c1ddb3013656dc2
+Description:  Lightweight UPnP IGD, NAT-PMP & PCP daemon
+
+Package: ntfs-3g
+Version: 2017.3.23-1-fuseint
+Depends: libc, kmod-fuse, libpthread
+License: GPL-2.0 LGPL-2.0
+Section: utils
+Architecture: arm_cortex-a15_neon-vfpv4
+Installed-Size: 185581
+Filename: ntfs-3g_2017.3.23-1-fuseint_arm_cortex-a15_neon-vfpv4.ipk
+Size: 186478
+SHA256sum: c921b05143850c4043d9e67aacd033458fbc92a2e22337c4db84bc7a13660c0b
+Description:  Ntfs-3g is a NTFS driver, which can create, remove, rename,
+ move files, directories, hard links, and streams. It can read
+ and write files, including streams and sparse files. It can
+ handle special files like symbolic links, devices, and FIFOs.
+ Moreover it can also read transparently compressed files.
+ 
+ Contains:
+ - ntfs-3g
+ - ntfs-3g.probe
+ - mount.ntfs-3g (symlink to ntfs-3g)
+ 
+
+Package: shadowsocks-libev-ss-local
+Version: 3.3.4-1
+Depends: libc, libev, libmbedtls12, libpthread, libsodium, libpcre
+License: GPL-3.0-or-later
+Section: net
+Architecture: arm_cortex-a15_neon-vfpv4
+Installed-Size: 49368
+Filename: shadowsocks-libev-ss-local_3.3.4-1_arm_cortex-a15_neon-vfpv4.ipk
+Size: 50029
+SHA256sum: ea3b6cd0752d7695eb8192703a9c286bdc366d4bb03efd3d5953d3e3b8eba526
+Description:  shadowsocks-libev ss-local
+
+Package: shadowsocks-libev-ss-redir
+Version: 3.3.4-1
+Depends: libc, libev, libmbedtls12, libpthread, libsodium
+License: GPL-3.0-or-later
+Section: net
+Architecture: arm_cortex-a15_neon-vfpv4
+Installed-Size: 42627
+Filename: shadowsocks-libev-ss-redir_3.3.4-1_arm_cortex-a15_neon-vfpv4.ipk
+Size: 43435
+SHA256sum: abd4fe9781c9c564b2ad763e9aa15448af85a2f428557791612491ef49eace14
+Description:  shadowsocks-libev ss-redir
+
+Package: unzip
+Version: 6.0-6
+Depends: libc
+License: BSD-4-Clause
+Section: utils
+Architecture: arm_cortex-a15_neon-vfpv4
+Installed-Size: 107910
+Filename: unzip_6.0-6_arm_cortex-a15_neon-vfpv4.ipk
+Size: 108889
+SHA256sum: af04c90758eed8f9785a2ce67d72cb5c5dabf5161fd0b220d1157cc952622a13
+Description:  InfoZIP's unzip program. With the exception of multi-volume archives
+ (ie, .ZIP files that are split across several disks using PKZIP's /& option),
+ this can handle any file produced either by PKZIP, or the corresponding
+ InfoZIP zip program.
+
+Package: wget
+Version: 1.20.3-3
+Depends: libc, libpcre, zlib, libopenssl1.1, librt
+Provides: gnu-wget
+Alternatives: 300:/usr/bin/wget:/usr/bin/wget-ssl
+License: GPL-3.0-or-later
+Section: net
+Architecture: arm_cortex-a15_neon-vfpv4
+Installed-Size: 199689
+Filename: wget_1.20.3-3_arm_cortex-a15_neon-vfpv4.ipk
+Size: 200237
+SHA256sum: 4be628a6966467331697f6277be76d37f5ce52f22da3cf7f48f8a4f08c5bb584
+Description:  Wget is a network utility to retrieve files from the Web using http
+ and ftp, the two most widely used Internet protocols. It works
+ non-interactively, so it will work in the background, after having
+ logged off. The program supports recursive retrieval of web-authoring
+ pages as well as ftp sites -- you can use wget to make mirrors of
+ archives and home pages or to travel the Web like a WWW robot.
+ This package is built with SSL support.
+

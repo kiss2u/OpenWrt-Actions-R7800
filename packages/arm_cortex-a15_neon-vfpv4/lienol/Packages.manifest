@@ -1,0 +1,42 @@
+Package: chinadns-ng
+Version: 1.0-beta.22-2
+Depends: libc, ipset
+Source: feeds/lienol/package/chinadns-ng
+SourceName: chinadns-ng
+License: GPLv3
+LicenseFiles: LICENSE
+Section: net
+Maintainer: pexcn <i@pexcn.me>
+Architecture: arm_cortex-a15_neon-vfpv4
+Installed-Size: 16223
+Filename: chinadns-ng_1.0-beta.22-2_arm_cortex-a15_neon-vfpv4.ipk
+Size: 16957
+SHA256sum: 38efca578bd63c12ee1e86e7ad24039fb593f03be6fbb3fb20e73bf86d0aecaa
+Description:  ChinaDNS next generation, refactoring with epoll and ipset.
+
+Package: luci-app-passwall
+Version: 3.6-41
+Depends: libc, libmbedtls12, iptables-mod-tproxy, ip, ipset, coreutils, coreutils-base64, coreutils-nohup, luci-lib-jsonc, wget, resolveip, unzip, dnsmasq-full, tcping, libuci-lua, ipt2socks, shadowsocksr-libev-alt, v2ray, trojan, ipt2socks, haproxy, chinadns-ng, pdnsd-alt, dns2socks
+Source: feeds/lienol/lienol/luci-app-passwall
+SourceName: luci-app-passwall
+Section: opt
+Architecture: all
+Installed-Size: 671554
+Filename: luci-app-passwall_3.6-41_all.ipk
+Size: 671898
+SHA256sum: 8a8dedea7aa103e5d29410a1cf0ef81054771f7646bf3c778f3697b784594f34
+Description:  LuCI support for PassWall
+
+Package: tcping
+Version: 0.1-2
+Depends: libc
+Source: feeds/lienol/package/tcping
+SourceName: tcping
+Section: net
+Architecture: arm_cortex-a15_neon-vfpv4
+Installed-Size: 2927
+Filename: tcping_0.1-2_arm_cortex-a15_neon-vfpv4.ipk
+Size: 3613
+SHA256sum: d607af0a332283c0bfe76e4fd726dfff5e48d97868cd0f6c6e77d1bb33dcfa4f
+Description:  tcping measures the latency of a tcp-connection
+
